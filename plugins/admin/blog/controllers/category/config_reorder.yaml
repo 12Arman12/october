@@ -1,0 +1,4 @@
+title: Category
+modelClass: Admin\Blog\Models\Categorys
+toolbar:
+    buttons: reorder_toolbar

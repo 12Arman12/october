@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table admin_blog_articles'
+    - builder_table_create_admin_blog_articles.php
+1.0.3:
+    - 'Created table admin_blog_categorys'
+    - builder_table_create_admin_blog_categorys.php
+1.0.4:
+    - 'Updated table admin_blog_articles'
+    - builder_table_update_admin_blog_articles.php
+1.0.5:
+    - 'Updated table admin_blog_articles'
+    - builder_table_update_admin_blog_articles_2.php

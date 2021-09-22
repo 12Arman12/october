@@ -1,0 +1,10 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    category_id:
+        label: Category
+        showSearch: true
+        span: auto
+        type: dropdown
