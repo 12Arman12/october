@@ -1,6 +1,7 @@
 <?php namespace Admin\Blog\Models;
 
 use Model;
+
 use Admin\Blog\Models\Categorys;
 
 /**
@@ -37,5 +38,7 @@ class Articles extends Model
     {
         return Categorys::lists('name', 'id');
     }
+
+    
 
 }

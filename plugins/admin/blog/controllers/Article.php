@@ -4,6 +4,7 @@ use Backend\Classes\Controller;
 use BackendMenu;
 
 use Admin\Blog\Models\Articles;
+use Admin\Blog\Models\Categorys;
 
 use Illuminate\Http\JsonResponse;
 
@@ -24,8 +25,8 @@ class Article extends Controller
 
     public function get(): JsonResponse
     {
-        $post = Articles::all();
-        return response()->json($post);
+        $post = Articles::with('category')->get();
+        return response()->json(['data' => $post]);
     }
 
 
