@@ -1,12 +1,12 @@
-title: Article
-modelClass: Admin\Blog\Models\Article
 list: $/admin/blog/models/article/columns.yaml
-recordUrl: 'admin/blog/article/update/:id'
+modelClass: Admin\Blog\Models\Article
+title: ArticlesGetController
 noRecordsMessage: 'backend::lang.list.no_records'
-recordsPerPage: 20
 showSetup: true
 showCheckboxes: true
+recordsPerPage: 20
 toolbar:
     buttons: list_toolbar
     search:
         prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'admin/blog/articlesgetcontroller/update/:id'

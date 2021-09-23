@@ -1,0 +1,10 @@
+name: Image
+form: $/admin/image/models/image/fields.yaml
+modelClass: Admin\Image\Models\Image
+defaultRedirect: admin/image/image
+create:
+    redirect: 'admin/image/image/update/:id'
+    redirectClose: admin/image/image
+update:
+    redirect: admin/image/image
+    redirectClose: admin/image/image

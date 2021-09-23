@@ -1,0 +1,10 @@
+name: CategoriesController
+form: $/admin/blog/models/category/fields.yaml
+modelClass: Admin\Blog\Models\Category
+defaultRedirect: admin/blog/categoriescontroller
+create:
+    redirect: 'admin/blog/categoriescontroller/update/:id'
+    redirectClose: admin/blog/categoriescontroller
+update:
+    redirect: admin/blog/categoriescontroller
+    redirectClose: admin/blog/categoriescontroller

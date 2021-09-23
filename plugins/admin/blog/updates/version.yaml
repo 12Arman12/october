@@ -12,3 +12,21 @@
 1.0.5:
     - 'Updated table admin_blog_articles'
     - builder_table_update_admin_blog_articles_2.php
+1.0.6:
+    - 'Created table admin_blog_image'
+    - builder_table_create_admin_blog_image.php
+1.0.7:
+    - 'Drop table admin_blog_image'
+    - builder_table_delete_admin_blog_image.php
+1.0.8:
+    - 'Updated table admin_blog_articles'
+    - builder_table_update_admin_blog_article.php
+1.0.9:
+    - 'Updated table admin_blog_categorys'
+    - builder_table_update_admin_blog_category.php
+1.0.10:
+    - 'Created table admin_blog_post'
+    - builder_table_create_admin_blog_post.php
+1.0.11:
+    - 'Drop table admin_blog_post'
+    - builder_table_delete_admin_blog_post.php

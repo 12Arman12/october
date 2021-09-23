@@ -1,0 +1,14 @@
+fields:
+    image:
+        label: 'File upload'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    title:
+        label: Title
+        span: auto
+        type: text

@@ -1,0 +1,10 @@
+name: ArticlesController
+form: $/admin/blog/models/article/fields.yaml
+modelClass: Admin\Blog\Models\Article
+defaultRedirect: admin/blog/articlescontroller
+create:
+    redirect: 'admin/blog/articlescontroller/update/:id'
+    redirectClose: admin/blog/articlescontroller
+update:
+    redirect: admin/blog/articlescontroller
+    redirectClose: admin/blog/articlescontroller

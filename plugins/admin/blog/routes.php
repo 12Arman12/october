@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Route;
-use Admin\Blog\Controllers\Article;
+use Admin\Blog\Controllers\ArticlesGetController;
 
 Route::prefix('api')->group(function () {
-    Route::get('get', [Article::class, 'get']);
+    Route::get('get', [ArticlesGetController::class, 'get']);
 });

@@ -1,6 +1,6 @@
 name: Category
-form: $/admin/blog/models/categorys/fields.yaml
-modelClass: Admin\Blog\Models\Categorys
+form: $/admin/blog/models/category/fields.yaml
+modelClass: Admin\Blog\Models\Category
 defaultRedirect: admin/blog/category
 create:
     redirect: 'admin/blog/category/update/:id'

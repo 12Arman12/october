@@ -3,7 +3,12 @@
 use Backend\Classes\Controller;
 use BackendMenu;
 
-class Category extends Controller
+use Admin\Blog\Models\Article;
+
+
+use Illuminate\Http\JsonResponse;
+
+class ArticlesGetController extends Controller
 {
     public $implement = [        'Backend\Behaviors\ListController',        'Backend\Behaviors\FormController',        'Backend\Behaviors\ReorderController'    ];
     
@@ -15,4 +20,11 @@ class Category extends Controller
     {
         parent::__construct();
     }
+
+    public function get(): JsonResponse
+    {
+        $post = Article::with('category')->get();
+        return response()->json(['data' => $post]);
+    }
+
 }

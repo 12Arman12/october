@@ -1,4 +1,4 @@
-title: Article
+title: ArticlesGetController
 modelClass: Admin\Blog\Models\Article
 toolbar:
     buttons: reorder_toolbar

@@ -1,4 +1,4 @@
-title: Category
+title: CategoriesController
 modelClass: Admin\Blog\Models\Category
 toolbar:
     buttons: reorder_toolbar

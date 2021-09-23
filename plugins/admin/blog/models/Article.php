@@ -2,12 +2,12 @@
 
 use Model;
 
-use Admin\Blog\Models\Categorys;
+use Admin\Blog\Models\Category;
 
 /**
  * Model
  */
-class Articles extends Model
+class Article extends Model
 {
     use \October\Rain\Database\Traits\Validation;
     
@@ -21,7 +21,7 @@ class Articles extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'admin_blog_articles';
+    public $table = 'admin_blog_article';
 
     /**
      * @var array Validation rules
@@ -30,13 +30,13 @@ class Articles extends Model
     ];
 
     public $belongsTo = [
-        'category' => [Categorys::class]
+        'category' => [Category::class]
         ];
 
 
     public function getCategoryIdOptions($keyValue = null)
     {
-        return Categorys::lists('name', 'id');
+        return Category::lists('name', 'id');
     }
 
     

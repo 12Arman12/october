@@ -7,9 +7,9 @@ plugin:
 navigation:
     Article:
         label: Article
-        url: admin/blog/article
+        url: admin/blog/articlescontroller
         icon: icon-adjust
     Category:
         label: Category
-        url: admin/blog/category
+        url: admin/blog/categoriescontroller
         icon: icon-android
